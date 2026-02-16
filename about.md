@@ -1,2 +1,2 @@
 # Some info about this mod
-This mod will lock you out of most levels if you die in any level :3 (Torture mod lol)
+This mod will kick you out of the current level if you die in said level 5 times.

@@ -8,11 +8,28 @@
 	},
 	"id": "jamiexists.levellockout",
 	"name": "LevelLockout",
-	"version": "v0.0.3",
+	"version": "v0.0.4",
 	"developer": "JamiExists",
-	"description": "When you die, it locks you out of custom levels... until you restart the game! (for now)",
+	"description": "When you die 5 times, it kicks you out of the level.",
 	"dependencies": {
 		"geode.node-ids": ">=v1.22.0"
 	},
-	"tags": ["joke", "gameplay"]
+	"tags": ["joke", "gameplay"],
+	"settings": {
+		"thetitle" : {
+			"type": "title",
+			"name": "LevelLockout Settings"
+		},
+		"shouldlockout": {
+			"name": "Lockout?",
+			"type": "bool",
+			"default": false
+		},
+		"reset": {
+			"name": "Reset Lockout status",
+			"type": "bool",
+			"default": false,
+			"enable-if": "shouldlockout"
+		}
+	}
 }
