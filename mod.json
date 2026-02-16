@@ -10,8 +10,9 @@
 	"name": "LevelLockout",
 	"version": "v0.0.2",
 	"developer": "JamiExists",
-	"description": "When you die, it locks you out of all the levels... until you restart the game! (for now)",
+	"description": "When you die, it locks you out of custom levels... until you restart the game! (for now)",
 	"dependencies": {
 		"geode.node-ids": ">=v1.22.0"
-	}
+	},
+	"tags": ["joke", "gameplay"]
 }
