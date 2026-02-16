@@ -1,0 +1,17 @@
+{
+	"geode": "5.0.0-beta.2",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "jamiexists.levellockout",
+	"name": "LevelLockout",
+	"version": "v0.0.2",
+	"developer": "JamiExists",
+	"description": "When you die, it locks you out of all the levels... until you restart the game! (for now)",
+	"dependencies": {
+		"geode.node-ids": ">=v1.22.0"
+	}
+}
