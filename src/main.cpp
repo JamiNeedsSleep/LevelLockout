@@ -10,7 +10,6 @@ using namespace geode::prelude;
 static bool g_levelLocked = false;
 #include <Geode/modify/PlayerObject.hpp>
 #include <Geode/modify/PlayLayer.hpp>
-#include <Geode/modify/GameStatsManager.hpp>
 class $modify(MyPlayerObject, PlayerObject) {
     void playerDestroyed(bool p0) {
         PlayerObject::playerDestroyed(p0);
@@ -50,16 +49,6 @@ class $modify(MyMenuLayer, MenuLayer) {
             }
         }
 
-        return true;
-    }
-};
-class $modify(MyStatsManager, GameStatsManager) {
-
-    bool init() {
-		if (!GameStatsManager::init()) {
-			return false;
-		}
-		GameStatsManager::setAwardedBonusKeys(100000);
         return true;
     }
 };

@@ -1,4 +1,3 @@
 # LevelLockout
-I tried
-
-<img src="logo.png" width="150" alt="the mod's logo" />
+I tried.
+(Geode v5 beta 2)
