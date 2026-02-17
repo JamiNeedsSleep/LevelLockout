@@ -8,7 +8,7 @@
 	},
 	"id": "jamiexists.levellockout",
 	"name": "LevelLockout",
-	"version": "v0.0.4",
+	"version": "v0.0.5",
 	"developer": "JamiExists",
 	"description": "When you die 5 times, it kicks you out of the level.",
 	"dependencies": {
@@ -31,5 +31,10 @@
 			"default": false,
 			"enable-if": "shouldlockout"
 		}
-	}
+	},
+	"resources": {
+        "sprites": [
+            "resources/Btn_001.png"
+        ]
+    }
 }
